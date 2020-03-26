@@ -1,0 +1,251 @@
+header, section, footer, nav {
+    display: block;
+  }
+  *
+  {
+    font-family: Arial, Helvetica, sans-serif;
+
+   
+  }
+
+  nav {
+    background-image: linear-gradient(to right,#585d61,#3d4144);
+   width: 100% !important;
+  }
+  .header{
+    width: 200px;;
+    height: 60px;
+  }
+  .headerpara{
+    color: white;
+    margin-bottom: 0;
+    font-size: 16px;
+
+  }
+  span .navlink{
+  
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+  }
+.navbar-nav .nav-item
+{
+  color: white !important;
+}
+
+.whatsapp-share button
+{
+    color:white;
+    background-color: #25D366;
+    width:100%;
+   height:auto;
+   margin-top:5px;
+  
+   
+}
+.whatsapp-share span{
+  border-right:1px solid gray;
+  font-size: 20px;
+  float:inline-start;
+  padding-right: 10px;
+}
+
+.facebook-share button
+{
+    color:white;
+    background-color:  #3b5998 ;
+    width:100%;
+    height:auto;
+    margin-top:5px;
+}
+.facebook-share span{
+border-right:1px solid gray;
+font-size: 20px;
+float:inline-start;
+padding-right: 10px;
+}
+.share h4{
+ color:blue;
+ font-weight: bold;
+ border-right:1px solid gray;
+  height:100%;
+}
+.share
+{
+    text-align: center;
+    height: 60px;
+  
+    position: absolute;
+  
+}
+.facebook-share strong{
+  font-size: 18px;
+  text-align: center;
+}
+.whatsapp-share strong{
+  font-size: 18px;
+  text-align: center;
+}
+.share p{
+margin-top: -40px;
+
+height:80%;
+}
+.s21 img{
+    display: block;
+    width: 96%;
+    height:60%;
+}
+.s22 button{
+ font-size: 20px;
+ font-weight: bold;
+ color: #6c757d
+}
+.nav-link {
+  display: block;
+  padding:1.5rem 7rem !important;
+  width:100%;
+}
+
+.row .card{
+  
+  border: none !important;
+  border-right:1px solid rgba(0, 0, 0, 0.125) !important ;
+}
+
+.code img
+{
+  width: 50px;
+  height: 50px;
+}
+
+.col-md-4
+{
+  padding-right: 120px !important;
+  padding-left: 0px !important;
+
+}
+
+#home-tab:hover{
+  background-color: #e1e4eb!important;
+}
+#profile-tab:hover{
+  background-color: #e1e4eb!important;
+}
+.donateButton
+{
+  padding: 8px !important;
+   margin: 10px !important;
+  font-size: 20px !important;
+  color:white;
+
+}
+.facebook
+ {
+  background-color:  #3b5998 !important;
+  padding: 8px !important;
+  margin: 10px !important;
+ font-size: 20px !important;
+ color:white !important;
+ padding-left: 20px !important;
+ padding-right: 20px !important;
+ }
+ .read_the_story
+ {
+  margin:20px auto ;
+  display: flex; 
+  justify-content: center;
+  font-size: 20px !important;
+  padding: 12px !important;
+  margin-left: 10em;
+  font-weight: bold !important;
+
+ 
+ }
+
+ footer
+ {   
+   color:white;
+   padding:5px
+ }
+ #footer h5:hover{
+   padding: 5px;
+   border-bottom: 2px solid #1d98cd;
+ 
+ }
+ 
+ .footer-links{
+   margin:10px 0;
+ }
+ 
+ .footer-links h5{
+   font-size:15px;
+   font-weight:500;
+   padding: 10px;
+   text-transform:uppercase;
+   margin-left: 8px;
+ }
+ 
+ .footer-links ul {
+     margin: 0;
+     list-style: none;
+     padding: 0;
+     line-height: 2;
+     margin-top: 10px;
+     margin-left: 10px;
+ }
+
+ footer p{
+   margin:0; 
+ 
+ }
+   footer {
+     background-image: linear-gradient(to right, #33404e,#040e17);
+     margin-top: 50px;
+ }
+ .image1
+{
+    width:200px;
+    height:60px;
+    position: absolute;
+}
+#progress100
+{
+  width:100%;
+}
+.paytm
+{
+ font-size:25px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ 
+}
+.qrcode img
+{
+  width:40%;
+  display: block;
+ margin-left: auto;
+ margin-right: auto; 
+}
+.qrcode 
+{
+  background-color: #fafbfc;
+  border:1px solid grey;
+  padding:5px;
+}
+.select
+{
+  padding: 8px;
+  background-color:white;
+  color: #6c757d !important;    
+}
+.donate
+{
+margin-right: 5px;
+background-color:#f0f2f5;
+padding:10px;
+border-radius: 8px;
+}
+footer a{
+  text-decoration: none !important;
+}

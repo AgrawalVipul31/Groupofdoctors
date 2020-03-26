@@ -1,0 +1,229 @@
+header, section, footer, nav {
+    display: block;
+  }
+.card a{
+  text-decoration: none !important;
+  color:black !important;
+}
+nav {
+  background-image: linear-gradient(to right,#585d61,#3d4144);
+ width: 100% !important;
+}
+/* *******************************************Section 1************************************************* */
+
+.header{
+    width: 200px;
+    height: 60px;
+  }
+  .headerpara{
+    color: white;
+    margin-bottom: 0;
+    font-size: 16px;
+    text-align: center;
+  }
+  span .navlink{
+  
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+  }
+.navbar-nav .nav-item
+{
+  color: white !important;
+}
+  /* *******************************************Section 2************************************************* */
+  
+  /* .background img
+  {
+    height:80vh;
+    width: 100%;  
+    
+  } */
+  .backcontent 
+  {
+    background-image: url(Images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:70vh;
+    width: 100%;
+  }
+  .backcontent h4{
+    position: relative;
+    margin-top: 15%;
+    padding-left:5%;
+    padding-right: 5%;
+    font-size: 22px;
+    color:black;
+  }
+  .backcontent form{
+    position: relative;
+    text-align: center;
+    margin-top: 5%;
+    padding-left:5%;
+    padding-right: 5%;
+  } 
+  #search
+  {
+    width:100%;
+  }
+form.example input {
+  padding: 9px;
+  font-size: 17px;
+  border: 1px solid #ced4da;
+  float: left;
+  width: 90%;
+  background:white;
+  border-radius:6px 0px 0px 6px;
+}
+
+form.example button {
+  float: left;
+  width: 9%;
+  padding: 9px;
+  background:red;
+  color: white;
+  font-size: 17px;
+  border: 1px solid #ced4da;
+  border-left: none;
+  cursor: pointer;
+  border-radius:0px 6px 6px 0px;
+}
+.heading h5
+{ 
+
+  text-align: center;
+ 
+}
+.heading
+{
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+.titles::before
+{
+    content: '';
+    background-image:linear-gradient(to left,#3ea359,#3ea359);
+    height: 5px;
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(45px);
+  
+}
+.s41
+{
+  border: 1px solid gray;
+}
+.s42 img{
+  width:100%;
+  height: 100%;
+  margin-left:-10px;
+  border-radius: 10px 0px 0px 0px 0px  ;
+}
+.s42 i{
+  line-height: 30px;
+  text-align: center;
+  font-size: medium;
+}
+.s42 h4{
+  margin:20px;
+  font-weight: bold;
+}
+.s51 img
+{
+ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  padding:20px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+footer
+{   
+  color:white;
+  padding:5px
+}
+#footer h5:hover{
+  padding: 5px;
+  border-bottom: 2px solid #1d98cd;
+
+}
+
+.footer-links{
+	margin:10px 0;
+}
+
+.footer-links h5{
+	font-size:15px;
+  font-weight:500;
+  padding: 10px;
+  text-transform:uppercase;
+  margin-left: 8px;
+}
+
+.footer-links ul {
+	  margin: 0;
+    list-style: none;
+    padding: 0;
+    line-height: 2;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+
+footer p{
+  margin:0; 
+
+}
+  footer {
+    background-image: linear-gradient(to right, #33404e,#040e17);
+    margin-top: 50px;
+}
+.image1
+{
+    width:200px;
+    height:60px;
+    position: absolute;
+}
+.carousel-indicators li {
+  box-sizing: content-box;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 10px !important;
+  height: 10px !important;
+  margin-right: 5px !important;
+  margin-left: 5px !important;
+  text-indent: -999px;
+  cursor: pointer !important;
+  background-color: #3ea359 !important;
+  background-clip: padding-box;
+  border-radius: 50px !important; 
+  opacity: .1;
+  transition: opacity 1 ease;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: -52px !important;
+  left: 0;
+  z-index: 15;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+}
+.card img{
+  width:100%;
+  height:55%;
+}
